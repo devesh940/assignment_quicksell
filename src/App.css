@@ -1,0 +1,18 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background-color: #d2dbdd;
+}
+
+.container {
+  display: flex;
+}
+
+.dynamic-element {
+  flex: 1; /* Equal width for all elements */
+  padding: 30px;
+}
+
